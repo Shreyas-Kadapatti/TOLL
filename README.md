@@ -2,7 +2,7 @@
 A modern, blockchain-based toll management system designed for Indian highways and expressways. This system provides secure, transparent, and efficient toll collection with real-time monitoring and blockchain verification.
 
 🚗 Features
-Core Functionality
+# Core Functionality
 Secure Authentication - Role-based access for administrators and operators
 Toll Payment Processing - Quick and secure toll payments with blockchain verification
 Transaction History - Complete record of all toll transactions with search functionality
@@ -11,7 +11,7 @@ Blockchain Explorer - View and verify transactions on the immutable blockchain l
 
 
 
-Technical Highlights
+# Technical Highlights
 Blockchain Integration - Secure transaction verification with immutable records
 Real-time Monitoring - Live updates on toll booth status and transactions
 Responsive Design - Works seamlessly on desktop and mobile devices
@@ -19,7 +19,7 @@ Indian Localization - Indian highways, locations, and Rupee (₹) currency
 
 
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Frontend:
 
 Next.js 14 (App Router)
@@ -45,7 +45,7 @@ npm
 
 
 
-🚀 Installation
+# 🚀 Installation
 Clone the repository
 git clone https://github.com/Shreyas-Kadapatti/TOLL.git
 cd smarttoll-blockchain
