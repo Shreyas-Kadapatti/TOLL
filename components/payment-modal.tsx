@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Car, CreditCard, Shield, Loader2 } from "lucide-react"
+import { Car, CreditCard, Shield, Loader2 } from 'lucide-react'
 import { useToast } from "@/hooks/use-toast"
 
 interface PaymentModalProps {
@@ -30,11 +30,11 @@ export default function PaymentModal({ isOpen, onClose, onSuccess }: PaymentModa
   const { toast } = useToast()
 
   const tollBooths = [
-    { id: "TB001", name: "Highway 101 North", fee: 5.5 },
-    { id: "TB002", name: "Interstate 95 South", fee: 7.25 },
-    { id: "TB003", name: "Route 66 East", fee: 4.75 },
-    { id: "TB004", name: "Pacific Coast Highway", fee: 6.0 },
-    { id: "TB005", name: "Golden Gate Bridge", fee: 8.5 },
+    { id: "TB001", name: "Delhi-Mumbai Expressway", fee: 85 },
+    { id: "TB002", name: "Mumbai-Pune Expressway", fee: 120 },
+    { id: "TB003", name: "Yamuna Expressway (Greater Noida)", fee: 65 },
+    { id: "TB004", name: "Chennai-Bangalore Highway", fee: 95 },
+    { id: "TB005", name: "Ahmedabad-Vadodara Expressway", fee: 75 },
   ]
 
   const vehicleTypes = [
@@ -158,7 +158,7 @@ export default function PaymentModal({ isOpen, onClose, onSuccess }: PaymentModa
                   <SelectItem key={booth.id} value={booth.id}>
                     <div className="flex items-center justify-between w-full">
                       <span>{booth.name}</span>
-                      <Badge variant="secondary">${booth.fee}</Badge>
+                      <Badge variant="secondary">₹{booth.fee}</Badge>
                     </div>
                   </SelectItem>
                 ))}
@@ -174,7 +174,7 @@ export default function PaymentModal({ isOpen, onClose, onSuccess }: PaymentModa
                     <Shield className="h-4 w-4 text-blue-600" />
                     <span className="font-medium">Total Amount</span>
                   </div>
-                  <span className="text-2xl font-bold text-blue-600">${formData.amount.toFixed(2)}</span>
+                  <span className="text-2xl font-bold text-blue-600">₹{formData.amount.toFixed(2)}</span>
                 </div>
                 <p className="text-sm text-blue-600 mt-1">Secured by blockchain technology</p>
               </CardContent>
@@ -198,7 +198,7 @@ export default function PaymentModal({ isOpen, onClose, onSuccess }: PaymentModa
               ) : (
                 <>
                   <CreditCard className="h-4 w-4 mr-2" />
-                  Pay ${formData.amount.toFixed(2)}
+                  Pay ₹{formData.amount.toFixed(2)}
                 </>
               )}
             </Button>
