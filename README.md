@@ -1,7 +1,7 @@
 # Toll Management System Using Blockchain 
 A modern, blockchain-based toll management system designed for Indian highways and expressways. This system provides secure, transparent, and efficient toll collection with real-time monitoring and blockchain verification.
 
-🚗 Features
+# 🚗 Features
 # Core Functionality
 Secure Authentication - Role-based access for administrators and operators
 Toll Payment Processing - Quick and secure toll payments with blockchain verification
