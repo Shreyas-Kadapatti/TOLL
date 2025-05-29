@@ -56,8 +56,8 @@ Make sure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Shreyas-Kadapatti/TOLL.git
-cd TOLL
+1.git clone https://github.com/Shreyas-Kadapatti/TOLL.git
+2.cd TOLL
 ## 📂 Project Structure
 
 TOLL/
