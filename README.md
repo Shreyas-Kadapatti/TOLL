@@ -1,6 +1,5 @@
 # SmartToll Blockchain System
 
-![SmartToll Banner](https://your-image-url.com/banner.png) <!-- Replace with actual banner image if available -->
 
 A modern, **blockchain-based toll management system** designed for Indian highways and expressways. This system provides **secure**, **transparent**, and **efficient** toll collection with real-time monitoring and blockchain verification.
 
@@ -57,7 +56,17 @@ Make sure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/smarttoll-blockchain.git
-cd smarttoll-blockchain
+git clone https://github.com/Shreyas-Kadapatti/TOLL.git
+cd TOLL
+## 📂 Project Structure
+
+TOLL/
+├── app/                # App router pages
+├── components/         # Reusable UI components
+├── lib/                # Utility libraries
+├── pages/              # API routes
+├── public/             # Static assets
+├── styles/             # Tailwind & global styles
+└── ...                 # Config and setup files
 npm install
 # 
