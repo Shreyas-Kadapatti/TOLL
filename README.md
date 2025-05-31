@@ -3,8 +3,6 @@
 
 A modern, **blockchain-based toll management system** designed for Indian highways and expressways. This system provides **secure**, **transparent**, and **efficient** toll collection with real-time monitoring and blockchain verification.
 
-"C:\Users\10pra\OneDrive\Desktop\Toll.webp"
-
 ---
 
 ## 🚗 Features
