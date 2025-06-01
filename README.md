@@ -2,7 +2,9 @@
 
 
 A modern, **blockchain-based toll management system** designed for Indian highways and expressways. This system provides **secure**, **transparent**, and **efficient** toll collection with real-time monitoring and blockchain verification.
-https://raw.githubusercontent.com/Shreyas-Kadapatti/TOLL/refs/heads/main/Toll.webp
+
+![Alt text]()
+
 ---
 
 ## 🚗 Features
